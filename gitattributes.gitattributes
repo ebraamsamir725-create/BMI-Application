@@ -1,0 +1,9 @@
+# Ignore generated native files from language statistics
+windows/* linguist-vendored
+android/* linguist-vendored
+ios/* linguist-vendored
+macos/* linguist-vendored
+linux/* linguist-vendored
+
+# Explicitly set Dart files to count toward language stats
+*.dart linguist-detectable=true
