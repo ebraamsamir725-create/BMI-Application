@@ -1,0 +1,46 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Android related
+**/android/app/gradlew
+**/android/app/gradlew.bat
+**/android/local.properties
+**/android/key.properties
+**/android/app/release
+**/android/app/debug
+
+# iOS/Mac related
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flttarget
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.h
+**/ios/Runner/GeneratedPluginRegistrant.m
+
+# Coverage results
+coverage/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/build/
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+pubspec.lock
